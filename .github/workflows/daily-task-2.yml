@@ -48,12 +48,12 @@ jobs:
       run: npm install
 
     # 运行 unicom 签到任务
-    - name: 号码5276
+    - name: 号码314235
      
       env:
-        user: ${{secrets.HAOMA52}}
-        password: ${{secrets.MM2}}
-        appid: ${{secrets.APPID}}
+        user: ${{secrets.HAOMA314235}}
+        password: ${{secrets.MM}}
+        appid: ${{secrets.APPID3}}
       run: node index.js unicom --user=${user} --password=${password} --appid=${appid} --tryrun
    
     - name: 号码5376
