@@ -53,7 +53,7 @@ jobs:
       env:
         user: ${{secrets.HAOMA040567}}
         password: ${{secrets.MM}}
-        appid: ${{secrets.APPID3}}
+        appid: ${{secrets.APPID360}}
       run: node index.js unicom --user=${user} --password=${password} --appid=${appid} --tryrun
    
     - name: 号码529876
